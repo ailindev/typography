@@ -1,0 +1,22 @@
+// Import base styles
+@import "base/vars";
+@import "base/fonts";
+@import "base/libs";
+@import "base/scaffolding";
+
+// Import blocks styles
+@import "blocks/common";
+@import "blocks/page-header";
+@import "blocks/page-footer";
+
+// ≥1200px
+//@include media-breakpoint-down(lg) {}
+
+// ≥992px
+//@include media-breakpoint-down(md) {}
+
+// ≥768px
+//@include media-breakpoint-down(sm) {}
+
+// ≥576px
+//@include media-breakpoint-down(xs) {}
